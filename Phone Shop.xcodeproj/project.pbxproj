@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2851E3B51FDE155200F64924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851E3B41FDE155200F64924 /* AppDelegate.swift */; };
-		2851E3B71FDE155200F64924 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851E3B61FDE155200F64924 /* FirstViewController.swift */; };
-		2851E3B91FDE155200F64924 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851E3B81FDE155200F64924 /* SecondViewController.swift */; };
+		2851E3B71FDE155200F64924 /* BuyingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851E3B61FDE155200F64924 /* BuyingVC.swift */; };
+		2851E3B91FDE155200F64924 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851E3B81FDE155200F64924 /* CartVC.swift */; };
 		2851E3BC1FDE155200F64924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2851E3BA1FDE155200F64924 /* Main.storyboard */; };
 		2851E3BE1FDE155200F64924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2851E3BD1FDE155200F64924 /* Assets.xcassets */; };
 		2851E3C11FDE155200F64924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2851E3BF1FDE155200F64924 /* LaunchScreen.storyboard */; };
@@ -29,8 +29,8 @@
 /* Begin PBXFileReference section */
 		2851E3B11FDE155200F64924 /* Phone Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2851E3B41FDE155200F64924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2851E3B61FDE155200F64924 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2851E3B81FDE155200F64924 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2851E3B61FDE155200F64924 /* BuyingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingVC.swift; sourceTree = "<group>"; };
+		2851E3B81FDE155200F64924 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		2851E3BB1FDE155200F64924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2851E3BD1FDE155200F64924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2851E3C01FDE155200F64924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				2851E3B41FDE155200F64924 /* AppDelegate.swift */,
-				2851E3B61FDE155200F64924 /* FirstViewController.swift */,
-				2851E3B81FDE155200F64924 /* SecondViewController.swift */,
+				2851E3B61FDE155200F64924 /* BuyingVC.swift */,
+				2851E3B81FDE155200F64924 /* CartVC.swift */,
 				2851E3BA1FDE155200F64924 /* Main.storyboard */,
 				2851E3BD1FDE155200F64924 /* Assets.xcassets */,
 				2851E3BF1FDE155200F64924 /* LaunchScreen.storyboard */,
@@ -202,9 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2851E3B91FDE155200F64924 /* SecondViewController.swift in Sources */,
+				2851E3B91FDE155200F64924 /* CartVC.swift in Sources */,
 				2851E3B51FDE155200F64924 /* AppDelegate.swift in Sources */,
-				2851E3B71FDE155200F64924 /* FirstViewController.swift in Sources */,
+				2851E3B71FDE155200F64924 /* BuyingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,10 +358,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4C78248KD9;
+				DEVELOPMENT_TEAM = J8546S84H6;
 				INFOPLIST_FILE = "Phone Shop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hozaifa.Phone-Shop";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hozaifa.Phone-Shop1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,10 +374,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4C78248KD9;
+				DEVELOPMENT_TEAM = J8546S84H6;
 				INFOPLIST_FILE = "Phone Shop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hozaifa.Phone-Shop";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hozaifa.Phone-Shop1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
